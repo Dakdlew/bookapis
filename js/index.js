@@ -1,6 +1,6 @@
 
-var nytimesKey = "oaGK8bfpv0HuTB0VFEFAGzf58WIpGA14";
-var googleBooksKey = "AIzaSyC6wYwXe5ToWe5FXoVnzZtgrS74_Nb1cJ8";
+var nytimesKey = config.NYT_KEY;
+var googleBooksKey = config.GOOGLE_BOOKS_KEY;
 
 fetch('https://api.nytimes.com/svc/books/v3/lists.json?list-name=hardcover-fiction&api-key=' + nytimesKey, {
     method: 'get',
