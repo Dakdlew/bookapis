@@ -1,4 +1,7 @@
-
+var config = {
+  NYT_KEY : oaGK8bfpv0HuTB0VFEFAGzf58WIpGA14
+  GOOGLE_BOOKS_KEY : AIzaSyC6wYwXe5ToWe5FXoVnzZtgrS74_Nb1cJ8
+}
 var nytimesKey = config.NYT_KEY;
 var googleBooksKey = config.GOOGLE_BOOKS_KEY;
 
